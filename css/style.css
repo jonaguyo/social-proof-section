@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Spartan';
+    src: url('../fonts/Spartan-VariableFont_wght.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: absolute;
+    font-family: 'Spartan';
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-top {
+    position: absolute;
+}
+
+.bg-bottom {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7%;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.title {
+    position: relative;
+    padding-right: 120px;
+    padding-left: 120px;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    background-color: red;
+}
+
+.title-primary {
+    font-size: 50px;
+    font-weight: bolder;
+    color: hsl(300, 43%, 22%);
+}
+
+.title-secondary {
+    color: hsl(303, 10%, 53%);
+}
+
+.ratings {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    background-color: blue;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    font-weight: bolder;
+    color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    height: 60px;
+    background-color: hsl(300, 24%, 96%);
+}
+
+.rating-comment {
+    padding-left: 40px;
+}
+
+.star {
+    padding: 5px;
+}
+
+.comments {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: green;
+}
+
+.comment {
+    padding: 40px 30px 40px 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 350px;
+    border-radius: 8px;
+    background-color: hsl(300, 43%, 22%);
+}
+
+.comment-header {
+    position: relative;
+}
+
+.comment-image {
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.comment-name {
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 60px;
+    font-size: small;
+    font-weight: bolder;
+    color: white;
+}
+
+.comment-buyer {
+    position: relative;
+    left: 60px;
+    font-size: small;
+    color: hsl(333, 80%, 67%);
+}
+
+.comment-text {
+    position: relative;
+    padding-top: 30px;
+    font-size: small;
+    line-height: 20px;
+    color: white;
+    clear: both;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
